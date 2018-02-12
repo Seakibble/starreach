@@ -1,0 +1,92 @@
+#footer-image{
+	height:540px;
+	background:url(../images/horizon.png);
+	margin: 0 auto;
+	background-position:center;
+}
+
+#form{
+	margin: 25px auto 0;
+	max-width:800px;
+}
+
+label{
+	display:block;
+}
+
+input[type="text"]{
+	border: white thin solid;
+	background:rgba(0,0,0,0.5);
+	width:300px;
+	font-size:20px;
+	color:rgb(255,204,0);
+	padding: 3px 0 2px 4px;
+}
+
+input[type="email"]{
+	border: white thin solid;
+	background:rgba(0,0,0,0.5);
+	width:300px;
+	font-size:20px;
+	color:rgb(255,204,0);
+	padding: 3px 0 2px 4px;
+}
+
+textarea{
+	border: white thin solid;
+	background:rgba(0,0,0,0.5);
+	width:800px;
+	height:100px;
+	font-size:20px;
+	color:rgb(255,204,0);
+	padding: 3px 0 2px 4px
+
+}
+
+#malebox{
+	display:inline;
+	padding-right:40px;
+}
+
+#femalebox{
+	display:inline;
+}
+
+button{
+	background:rgba(255,255,255, 0.05);
+	font-weight:bold;
+	border:#FC0 thin solid;
+	display:block;
+	margin: 0 auto;
+	margin-top:50px;
+}
+
+.innerbutton{
+	color:#FC0;
+}
+
+#filler{
+	max-height:300px;
+}
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:rgba(255,255,255,0.5);
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    rgba(255,255,255,0.5);
+    opacity:  1;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    rgba(255,255,255,0.5);
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    rgba(255,255,255,0.5);
+}
+
+@media screen and (max-width: 1023px){
+	#texty{
+		width:90%;
+		height:100px;
+	}
+}

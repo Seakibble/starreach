@@ -1,0 +1,20 @@
+#footer-image{
+	height:540px;
+	max-height:540px;
+	background:url(../images/spaceship.png);
+	margin: 0 auto;
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:contain;
+	max-width:855px;
+}
+
+@media screen and (max-width: 1023px){
+	#footer-image{
+		height:75vw;
+	}
+	
+	#footer-text{
+		background:rgba(0,0,0,0.35);
+	}
+}

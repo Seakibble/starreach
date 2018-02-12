@@ -1,0 +1,10 @@
+#footer-image{
+	height:540px;
+	background:url(../images/galaxy.png);
+	margin: 0 auto;
+	background-position:center;
+}
+
+#footer-text{
+	background:rgba(0,0,0,0.3);
+}
